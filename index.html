@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Bootstrap1.css">
+</head>
+
+<body>
+
+    <!--Nav Bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Wonderful World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mailto:tetleonlee@gmail.com">Email Me</a>
+                        <a class="dropdown-item" href="https://www.facebook.com/tetleon" target="blank">Facebook</a>
+                        <a class="dropdown-item" href="https://www.instagram.com/tetleon/" target="blank">Instagram</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/tetleon/" target="blank">Linkedin</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="http://kanigas.com/wp-content/uploads/2015/10/skyscrapercity.com_.jpg"
+                        class="d-block w-100" alt="..." width="1199" height="629">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Beautiful Mountains</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.adventure-centre.org/wp-content/uploads/2018/01/cape-town-sea-view-1024x768-1024x768.jpg"
+                        class="d-block w-100" alt="..." width="1199" height="629">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Calming Seas</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.stack.imgur.com/QNKgI.jpg" class="d-block w-100" alt="..." width="1199"
+                        height="629">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Orange Skies</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!--Jumbotron-->
+
+    <div class="jumbotron jumbotron-fluid bg-dark text-light">
+        <div class="container">
+            <h1 class="display-4">What a Wonderful World</h1>
+            <p class="lead">Our Wonderful World is impermanent, Appreciate what we have now</p>
+        </div>
+    </div>
+
+    <!--Cards-->
+
+    <div class="container mt-3 mb-3">
+        <h1 class="text-left"> Latest Stories </h1>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.clearbluesea.org/wp-content/uploads/2019/01/JL-Turtle-Eating-Plastic-Bag-Copyright-Troy-Mayne-400x300.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Plastic Sea</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <small>*The world is ending, what are you</small>
+                        <p> </p>
+                        <button class="btn btn-primary d-block mx-auto" data-toggle="modal"
+                            data-target="#TakeActionNow">
+                            Take Action Now !
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.educationquizzes.com/library/GCSE-Science/Fuels-and-Pollutions.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Air Pollution</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <small>*The world is ending</small>
+                        <p> </p>
+                        <button class="btn btn-primary d-block mx-auto" data-toggle="modal"
+                            data-target="#TakeActionNow">
+                            Take Action Now !
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://planetark.org/images/public/image-7808-cassie-matias-247740-unsplash.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Climate Change</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <small>*The world is ending</small>
+                        <p> </p>
+                        <button class="btn btn-primary d-block mx-auto" data-toggle="modal"
+                            data-target="#TakeActionNow">
+                            Take Action Now !
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal-->
+
+    <div class="modal fade" id="TakeActionNow" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Take Action Today!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Dear Honorable Heads of State,
+
+                    Our oceans face a growing pollution crisis. About 8 million metric tons of plastic waste end up in
+                    our oceans every year. There are already an estimated 150 million metric tons of plastic in our
+                    oceans because this problem hasn't been addressed effectively. We need a global agreement to end
+                    plastic leakage into the seas by 2030.
+
+                    Marine plastic pollution has serious consequences for people's well-being and their livelihoods. And
+                    it also has devastating impacts on life in our oceans—causing injury and death to fish, sea turtles,
+                    whales, birds, coral reefs and much more.
+
+                    Every single country is part of this plastics crisis. And every single country must be part of the
+                    solution: we need a united global response, with the world's governments taking accountability for
+                    ending marine plastics pollution.
+
+                    That's why we, the people of the world, ask you to create a global and legally binding agreement to
+                    stop the leakage of plastics into our oceans by 2030. The agreement should:
+
+                    set strict goals for pollution reduction in each country—including the US,
+                    create a national action plan in each country—including the US—to meet these goals.
+                    The plastics crisis in our oceans was created in a single lifetime and can be ended in a single
+                    decade. If we act now, together.
+
+                    [Your Name]
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Thank You !</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--About Us & Meet The Team-->
+
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <div class="card mt-3 shadow">
+                <div class="card-body">
+                    <h2 id="about-us">About Us!</h2>
+                    <img class="card-img-top"
+                        src="https://spectator.imgix.net/content/uploads/2018/03/factory.jpg?auto=compress,enhance,format&crop=faces,entropy,edges&fit=crop&w=820&h=550"
+                        alt="" width="527" height="353">
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam eaque
+                        similique doloremque ipsum libero tempora doloribus non qui, nam corrupti fuga animi. Mollitia,
+                        id. Culpa quasi accusantium, similique incidunt iste perferendis, ex sit eveniet corrupti
+                        laborum optio eius rerum aliquam earum quod id suscipit corporis aut aperiam officiis
+                        voluptatem?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Meet the Animals</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card mt-3 shadow-none">
+                                <div class="card-body">
+                                    <img class="mx-auto d-block"
+                                        src="https://image.winudf.com/v2/image/Y29tLnBvbGFyLmJlYXIud2FsbHBhcGVyLmNvb2wuYmFja2dyb3VuZHMubW92aW5nX2ljb25fMTUyNzk1Mzc5Ml8wMjk/icon.png?w=170&fakeurl=1&type=.png"
+                                        alt="">
+                                    <h6 class="text-center mt-3"> Polar Bears</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card mt-3 shadow-none">
+                                <div class="card-body">
+                                    <img class="mx-auto d-block"
+                                        src="https://image.winudf.com/v2/image/Y29tLnFhbmplcnVtYmkucmhpbm9jZXJvc3dhbGxwYXBlcl9pY29uX2NibDBkdmYy/icon.png?w=170&fakeurl=1&type=.png">
+                                    <h6 class="text-center mt-3"> Rhinoceros</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card mt-3 shadow-none">
+                                <div class="card-body">
+                                    <img class="mx-auto d-block"
+                                        src="https://media.istockphoto.com/photos/young-panda-bear-in-tree-picture-id1060486568?s=170x170"
+                                        alt="">
+                                    <h6 class="text-center mt-3"> Giant Pandas</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card mt-3 shadow-none">
+                                <div class="card-body">
+                                    <img class="mx-auto d-block"
+                                        src="https://www.borneodream.com/diveshop/images/thumbnails/170/170/detailed/1/orangutan-mother-baby.jpg"
+                                        alt="">
+                                    <h6 class="text-center mt-3"> Orang Utans</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-12">
+            <hr>
+            <div class="row">
+                <div class="col-12 mt-2 ml-2">
+                    <h2>Meet the Animals</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card mt-3 shadow-none">
+                                <div class="card-body">
+                                    <img class="mx-auto d-block"
+                                        src="https://image.winudf.com/v2/image/Y29tLnBvbGFyLmJlYXIud2FsbHBhcGVyLmNvb2wuYmFja2dyb3VuZHMubW92aW5nX2ljb25fMTUyNzk1Mzc5Ml8wMjk/icon.png?w=170&fakeurl=1&type=.png"
+                                        alt="">
+                                    <h6 class="text-center mt-3"> Polar Bears</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card mt-3 shadow-none">
+                                <div class="card-body">
+                                    <img class="mx-auto d-block"
+                                        src="https://image.winudf.com/v2/image/Y29tLnFhbmplcnVtYmkucmhpbm9jZXJvc3dhbGxwYXBlcl9pY29uX2NibDBkdmYy/icon.png?w=170&fakeurl=1&type=.png">
+                                    <h6 class="text-center mt-3"> Rhinoceros</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card mt-3 shadow-none">
+                                <div class="card-body">
+                                    <img class="mx-auto d-block"
+                                        src="https://media.istockphoto.com/photos/young-panda-bear-in-tree-picture-id1060486568?s=170x170"
+                                        alt="">
+                                    <h6 class="text-center mt-3"> Giant Pandas</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card mt-3 shadow-none">
+                                <div class="card-body">
+                                    <img class="mx-auto d-block"
+                                        src="https://www.borneodream.com/diveshop/images/thumbnails/170/170/detailed/1/orangutan-mother-baby.jpg"
+                                        alt="">
+                                    <h6 class="text-center mt-3"> Orang Utans</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="card mt-3 shadow">
+                <div class="card-body">
+                    <h2 id="about-us">About Us!</h2>
+                    <img class="card-img-top"
+                        src="https://spectator.imgix.net/content/uploads/2018/03/factory.jpg?auto=compress,enhance,format&crop=faces,entropy,edges&fit=crop&w=820&h=550"
+                        alt="" width="527" height="353">
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam eaque
+                        similique doloremque ipsum libero tempora doloribus non qui, nam corrupti fuga animi. Mollitia,
+                        id. Culpa quasi accusantium, similique incidunt iste perferendis, ex sit eveniet corrupti
+                        laborum optio eius rerum aliquam earum quod id suscipit corporis aut aperiam officiis
+                        voluptatem?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Footer-->
+
+    <div class="sticky-bottom text-center bg-dark text-light mt-3">
+        Copyright World in Danger Inc 2019
+    </div>
+
+    <!--JS Script-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
